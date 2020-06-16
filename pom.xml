@@ -67,6 +67,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>org.flywaydb</groupId>
+             <artifactId>flyway-core</artifactId>
+             <version>6.4.4</version>
+        </dependency>
 	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
@@ -105,6 +110,22 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+		<plugin>
+                <groupId>org.flywaydb</groupId>
+                    <artifactId>flyway-maven-plugin</artifactId>
+                    <version>6.4.4</version>
+                    <configuration>
+                    <baselineOnMigrate>true</baselineOnMigrate>
+                     <url>jdbc:mysql://13.232.55.219:3306</url>
+                     <user>inguser3</user>
+                      <password>H@ckath0n</password>
+                          <schemas>
+                          <schema>forexpay</schema>
+                    </schemas>
+                  </configuration>   
+            </plugin>
+			
 		</plugins>
 	</build>
 
