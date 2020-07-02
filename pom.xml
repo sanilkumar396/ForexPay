@@ -11,14 +11,14 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 	
 	      <scm>
-	<connection>scm:https://github.com/raja990832/maven-multi-module-example.git</connection>
-	<url>https://github.com/raja990832/maven-multi-module-example.git</url>
-	<developerConnection>scm:git:https://github.com/raja990832/maven-multi-module-example.git</developerConnection>
+	<connection>scm:https://github.com/raja990832/forexpay.git</connection>
+	<url>https://github.com/raja990832/forexpay.git</url>
+	<developerConnection>scm:git:https://github.com/raja990832/forexpay.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -131,7 +131,7 @@
                     <version>6.4.4</version>
                     <configuration>
                     <baselineOnMigrate>true</baselineOnMigrate>
-                     <url>jdbc:mysql://13.232.55.219:3306</url>
+                     <url>jdbc:mysql://13.233.238.194:3306</url>
                      <user>inguser3</user>
                       <password>H@ckath0n</password>
                           <schemas>
