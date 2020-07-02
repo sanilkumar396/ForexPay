@@ -16,9 +16,9 @@
 	<description>Money Transfer project for Spring Boot</description>
 	
 	      <scm>
-	<connection>scm:https://github.com/raja990832/forexpay.git</connection>
-	<url>https://github.com/raja990832/forexpay.git</url>
-	<developerConnection>scm:git:https://github.com/raja990832/forexpay.git</developerConnection>
+	<connection>scm:https://github.com/raja990832/maven-multi-module-example.git</connection>
+	<url>https://github.com/raja990832/maven-multi-module-example.git</url>
+	<developerConnection>scm:git:https://github.com/raja990832/maven-multi-module-example.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
