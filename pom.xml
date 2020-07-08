@@ -14,9 +14,9 @@
 	<description>Money Transfer project for Spring Boot</description>
 	
 	      <scm>
-	<connection>scm:https://github.com/raja990832/ForexPay.git</connection>
-	<url>https://github.com/raja990832/ForexPay.git</url>
-	<developerConnection>scm:git:https://github.com/raja990832/Forexpay.git</developerConnection>
+	<connection>scm:https://github.com/sanilkumar396/ForexPay.git</connection>
+	<url>https://github.com/sanilkumar396/ForexPay.git</url>
+	<developerConnection>scm:git:https://github.com/sanilkumar396/Forexpay.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -83,11 +83,11 @@
    <snapshotRepository>
       <id>nexus</id>
       <name>snapshots</name>
-      <url>http://35.154.18.201:8081/nexus/content/repositories/snapshots</url>
+      <url>http://18.223.168.96:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository> 
     <repository>
       <id>nexus</id>
-      <url>http://35.154.18.201:8081/nexus/content/repositories/releases</url>
+      <url>http://18.223.168.96:8081/nexus/content/repositories/releases</url>
    </repository>  
   </distributionManagement>
 	
@@ -129,8 +129,8 @@
                     <version>6.4.4</version>
                     <configuration>
                     <baselineOnMigrate>true</baselineOnMigrate>
-                     <url>jdbc:mysql://13.234.38.51:3306</url>
-                     <user>inguser</user>
+                     <url>jdbc:mysql://18.223.168.96:3306</url>
+                     <user>inguser3</user>
                       <password>H@ckath0n</password>
                           <schemas>
                           <schema>forexpay</schema>
