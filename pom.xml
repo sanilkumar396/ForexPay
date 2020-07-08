@@ -133,7 +133,7 @@
                      <user>inguser1</user>
                       <password>H@ckath0n</password>
                           <schemas>
-                          <schema>forexpay</schema>
+                          <schema>parking</schema>
                     </schemas>
                   </configuration>   
             </plugin>
