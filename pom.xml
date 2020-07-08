@@ -130,7 +130,7 @@
                     <configuration>
                     <baselineOnMigrate>true</baselineOnMigrate>
                      <url>jdbc:mysql://18.223.168.96:3306</url>
-                     <user>inguser3</user>
+                     <user>forex1</user>
                       <password>H@ckath0n</password>
                           <schemas>
                           <schema>forexpay</schema>
