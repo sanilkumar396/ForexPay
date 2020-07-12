@@ -133,7 +133,7 @@
                      <user>standard1</user>
                       <password>H@ckath0n</password>
                           <schemas>
-                          <schema>flydb</schema>
+                          <schema>forexpay</schema>
                     </schemas>
                   </configuration>   
             </plugin>
